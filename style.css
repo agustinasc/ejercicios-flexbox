@@ -1,0 +1,84 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(105, 68, 255);
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+
+}
+
+main {
+    height: 100vh;
+    width: 450px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nome {
+    color: rgb(105, 68, 255);
+}
+
+.job {
+    font-size: 20px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+/*     padding: 10px;
+ */
+}
+
+.articles, .followers, .following {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px;
+ }
+
+/* .face {
+    width: 10px;
+    height: 10px;
+} */
+
+.icons {
+    margin: 25px 0px;
+    cursor: pointer;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+    
+}
+
+.but-follow {
+    width: 200px;
+    height: 50px;
+    /* margin: 80px; */
+    text-decoration: none;
+    text-align: center;
+/*     padding: 10px;
+ */    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    border: rgb(238, 1, 120);
+    background-color: rgb(238, 1, 120);
+    cursor: pointer;
+    
+}
